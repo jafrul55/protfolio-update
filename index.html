@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left"><a href="#">Jafrul Portfolio</a></div>
+        <div class="right">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="https://spotify-clonewith-jafrul.vercel.app/">Projects</a></li>
+            <li><a href="#">Contact me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          <h2>Hi, I'm</h2>
+          <span class="name">Jafrul Alam Tusar</span>.
+          <div>I am a Front-end Engineer and Muslim.</div>
+          <!-- I am passionate about software development field . That's why I choose
+          this profession. I need Allah help to fulfill my dream. -->
+          <!-- Element to contain animated typing -->
+          <span id="element"></span>
+          <br>
+          <!-- Download Resume  -->
+          <button class="btn" id="downloadBtn">Download Resume</button>
+          <button class="btn" ><a href="https://github.com/jafrul55">Go to Git Hub</a></button>
+        </div>
+        <div class="rightsection">
+          <img src="./Picture/Jafrul.png" alt="" />
+        </div>
+      </section>
+      <hr>
+      <section class="secondsection">
+        <span class="text-gray">What have done so far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img src="./Picture/Programmer.png" alt="">
+            <div class="vertical-title">Front end Engineer at Brainstation(2018-2020)</div>
+            <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium inventore similique officiis placeat dolor voluptatibus ab pariatur quis quaerat.
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="./Picture/Programmer.png" alt="">
+            <div class="vertical-title">Front end Engineer at Ollyo(2020-2021)</div>
+            <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium inventore similique officiis placeat dolor voluptatibus ab pariatur quis quaerat.
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="./Picture/Programmer.png" alt="">
+            <div class="vertical-title">Front end Engineer at Amazon(2021-2022)</div>
+            <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium inventore similique officiis placeat dolor voluptatibus ab pariatur quis quaerat.
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="./Picture/Programmer.png" alt="">
+            <div class="vertical-title">Front end Engineer at Google(2022)</div>
+            <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium inventore similique officiis placeat dolor voluptatibus ab pariatur quis quaerat.
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="foot">
+      <div class="footer-item">
+        <ul>
+          <li>Contact Number</li>
+          <li>Company Address</li>
+          <li>Email</li>
+        </ul>
+      </div>
+      <div class="footer-item">
+        <ul>
+          <li>Project</li>
+          <li>Location</li>
+          <li>Client Review</li>
+        </ul>
+      </div>
+      <div class="footer-item">
+        <ul>
+        <li>All right reserved</li>
+        </ul>
+    </div>
+    </footer>
+      
+
+  <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Skill:','Html','CSS','Javascript','Git and Github','Bootstrap','Tailwind CSS',' SASS / SCSS','NPM','React','Material UI','React Router','Redux','Next JS','Typescript','Jest','Happy Coding!'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+    <script src="script.js"></script>
+  </body>
+</html>

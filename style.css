@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(4, 12, 34);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  height: 60px;
+  background-color: rgb(12, 51, 51);
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+  nav {
+    flex-wrap: wrap;
+    margin: 5px 10px;
+    height: 40vh;
+    background-color: #042f46;
+  }
+  .right ul {
+    flex-direction: column;
+    font-size: 26px;
+  }
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: lightseagreen;
+  font-size: 1.04rem;
+}
+
+.left {
+  font-size: 2rem;
+}
+.left a {
+  text-decoration: none;
+  color: white;
+}
+
+.left a:hover {
+  color: lightseagreen;
+}
+
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0;
+  flex-wrap: wrap;
+}
+
+/* it will increase width only first div */
+.firstsection > div {
+  width: 35%;
+}
+
+.leftsection {
+  /* background-color: red; */
+  font-size: 3rem;
+  margin: 30px 0;
+}
+
+.rightsection img {
+  width: 80%;
+  margin: 21px 5px;
+}
+
+.name {
+  color: #193d8f;
+}
+
+#element {
+  color: #4d97bf;
+}
+
+.secondsection {
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+
+main hr {
+  border: 0;
+  background-color: #4d97bf;
+  height: 1.2px;
+  margin: 15px 85px;
+}
+
+.text-gray {
+  color: gray;
+}
+.secondsection h1 {
+  font-size: 1.9 rem;
+}
+
+.secondsection .box {
+  background-color: white;
+  width: 80vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+
+.secondsection .vertical {
+  height: 93px;
+  width: 1px;
+  background-color: white;
+  margin: 0 140px;
+}
+.vertical img {
+  position: relative;
+  width: 38px;
+  top: -38px;
+  right: 18px;
+}
+
+.vertical-title {
+  margin: 50px -37px;
+  width: 205px;
+  margin-bottom: 0;
+}
+.vertical-desc {
+  margin: 5px -39px;
+  width: 13vw;
+  font-size: 9px;
+}
+
+.foot {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+  margin-top: 5px;
+  gap: 25px;
+}
+
+footer ul li {
+  list-style-type: none;
+}
+
+.address {
+  cursor: pointer;
+  color: gray;
+}
+
+.btn {
+  padding: 12px;
+  background: #1e2167;
+  color: white;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (max-width: 500px) {
+  .firstsection {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .leftsection {
+    font-size: 25px;
+    margin: 50px;
+    text-align: center;
+  }
+  h1 {
+    text-align: center;
+  }
+}
